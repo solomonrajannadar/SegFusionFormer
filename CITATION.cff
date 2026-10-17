@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+
+message: "If you use SegFusionFormer in your research, please cite this software repository."
+
+type: software
+
+title: "SegFusionFormer: Segmentation-Guided Explainable Hybrid CNN–Transformer Framework for Multi-Label Thoracic Disease Classification"
+
+authors:
+  - given-names: "Solomon"
+    family-names: "Rajan P"
+
+repository-code: "https://github.com/solomonrajannadar/SegFusionFormer"
+
+abstract: >
+  SegFusionFormer is a segmentation-guided explainable
+  hybrid CNN–Transformer research framework for
+  multi-label thoracic disease classification from
+  chest radiographs. It integrates U-Net lung
+  segmentation, mask-guided attention, EfficientNet-B0,
+  MaxViT-Tiny, adaptive feature fusion, and Grad-CAM
+  explainability.
+
+keywords:
+  - Deep Learning
+  - Medical Imaging
+  - Chest X-ray
+  - Thoracic Disease Classification
+  - CNN
+  - Vision Transformer
+  - U-Net
+  - Explainable AI
+  - SegFusionFormer
