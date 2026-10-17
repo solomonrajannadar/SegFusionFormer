@@ -314,9 +314,56 @@ This research project was developed as part of the M.Tech Computer Science and E
 
 The project uses publicly released research datasets and established open-source deep learning frameworks.
 
-## 15. Citation
+## 15. Citation and Code Availability
 
-Formal citation information will be added following verification of the associated research publication details.
+### Citation
+
+If you use SegFusionFormer in your research,
+please cite this software repository.
+
+Citation metadata is available in:
+
+[CITATION.cff](CITATION.cff)
+
+The associated journal manuscript citation
+will be added when publication details are available.
+
+### Code Availability
+
+The SegFusionFormer research implementation is available at:
+
+https://github.com/solomonrajannadar/SegFusionFormer
+
+The repository includes:
+
+- Eight Jupyter research notebooks
+- Model architecture implementations
+- Training and evaluation procedures
+- Explainable AI implementation
+- Experimental figures and numerical results
+- Dataset documentation
+- Reproducibility instructions
+
+### Data Availability
+
+The NIH ChestX-ray14 dataset can be obtained
+from its official distribution source.
+
+The dataset is not redistributed in this repository.
+
+### Model Availability
+
+Trained model checkpoints are maintained separately
+from the public GitHub repository.
+
+See [Model Documentation](models/README.md)
+for checkpoint information.
+
+### Reproducibility
+
+See the [Reproducibility Guide](docs/REPRODUCIBILITY.md)
+for implementation details, setup instructions,
+and current reproducibility limitations.
 
 ---
 
