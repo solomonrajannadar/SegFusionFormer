@@ -1,0 +1,31 @@
+# ==========================================
+# SegFusionFormer
+# Python Dependencies
+# ==========================================
+
+# Deep Learning
+torch
+torchvision
+timm
+
+# Numerical Computing
+numpy
+pandas
+
+# Medical Image Processing
+opencv-python
+Pillow
+
+# Machine Learning and Evaluation
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Progress Monitoring
+tqdm
+
+# Jupyter Notebook Environment
+jupyterlab
+ipykernel
