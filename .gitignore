@@ -250,3 +250,6 @@ __MACOSX/
 
 # Jupyter Checkpoints
 .ipynb_checkpoints/
+
+# Ignore local dataset directory or symbolic link
+/dataset
