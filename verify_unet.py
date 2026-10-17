@@ -267,14 +267,17 @@ print("Device:", device)
 
 test_images = [
 
-    "00000870_001.png",
+    # Training samples
+    "00014825_001.png",
+    "00001569_001.png",
+    "00023305_000.png",
 
-    "00003799_005.png",
-
-    "00008395_005.png"
+    # Validation samples
+    "00003406_004.png",
+    "00014089_001.png",
+    "00012086_009.png"
 
 ]
-
 MASK_DIR = DATASET_DIR / "lung_masks"
 
 IMAGE_SIZE = 256
