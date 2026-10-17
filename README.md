@@ -43,6 +43,11 @@ The framework contains the following principal stages:
 7. Multi-label disease classification
 8. Explainable AI using Grad-CAM
 
+   For the proposed system architecture and detailed
+component descriptions, see:
+
+**[SegFusionFormer Architecture Diagram](docs/ARCHITECTURE.md)**
+
 ### Architecture Workflow
 
 ```text
