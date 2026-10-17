@@ -218,3 +218,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================
+# SegFusionFormer - Project Specific
+# ============================================
+
+# NIH ChestX-ray14 Dataset
+dataset/
+segmentation_dataset/
+
+# Trained Model Checkpoints
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Generated Temporary Outputs
+outputs/
+convergence_outputs/
+final_project_package/
+
+# Dataset Splits
+splits/
+
+# Environment Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
