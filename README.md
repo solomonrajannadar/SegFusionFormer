@@ -365,6 +365,43 @@ See the [Reproducibility Guide](docs/REPRODUCIBILITY.md)
 for implementation details, setup instructions,
 and current reproducibility limitations.
 
+## Project Review Status
+
+SegFusionFormer is an academic M.Tech research implementation
+for multi-label thoracic disease classification using
+NIH ChestX-ray14.
+
+The repository contains eight research notebooks,
+saved experimental figures, numerical results,
+and reproducibility documentation.
+
+### Recorded Experimental Results
+
+- Macro AUROC: 0.8179
+- Micro AUROC: 0.8358
+- Macro F1-score: 0.3224
+- Micro F1-score: 0.3469
+- U-Net validation Dice: 0.9601
+
+Classification results originate from the original
+image-level validation experiment using 22,424 images.
+
+The original classification split contains patient overlap.
+These results are not independent test-set performance.
+
+The U-Net Dice score was recorded on a separate
+CHNCXR segmentation validation dataset.
+
+A patient-disjoint dataset partition was subsequently
+prepared, but the reported classification metrics
+were not generated using that partition.
+
+Some NIH lung masks are incomplete, and the original
+checkpoints and datasets are not distributed in GitHub.
+
+The project is intended for academic research
+and demonstration, not clinical diagnosis.
+
 ---
 
 **Project:** SegFusionFormer
