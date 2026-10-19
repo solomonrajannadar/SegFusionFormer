@@ -2,7 +2,7 @@
 
 ### Segmentation-Guided Explainable Hybrid CNN–Transformer Framework for Multi-Label Thoracic Disease Classification
 
-**M.Tech Research Project | Computer Science and Engineering**
+**SOLOMON RAJAN P (PRK25CS1005) | M.Tech Research Project | Computer Science and Engineering**
 
 **Karunya Institute of Technology and Sciences, Coimbatore, India**
 
